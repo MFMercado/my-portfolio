@@ -5,10 +5,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css" />
 
     <title>Portfolio</title>
   </head>
-  <body></body>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top p-0">
+      <div class="container-fluid p-0">
+        <div>
+          <a class="navbar-brand" href="#">
+            <img
+              src="/docs/5.2/assets/brand/bootstrap-logo.svg"
+              alt=""
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Placeholder
+          </a>
+        </div>
+        <div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PORTFOLIO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME -->
+    <div>
+      <img
+        src="images\background-original.jpg"
+        alt=""
+        class="home-img img-fluid"
+      />
+    </div>
+
+    <!-- ABOUT -->
+    <div id="about" class="row p-0 align-items-center">
+      <div class="col-8 p-5 text-center">
+        <h3>Hi! I'm Faye Mercado</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <div class="col-4">
+        <img src="images\placeholder2.png" alt="" height="500" />
+      </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div id="services" class="d-flex flex-column justify-content-center">
+      <h3 class="text-center mb-5">My Offered Services</h3>
+      <div class="row">
+        <!-- service 1 -->
+        <div class="col-3 d-flex flex-column align-items-center">
+          <img src="images\placeholder2.png" alt="" height="250" width="250" />
+          <h5 class="my-3">Placeholder</h5>
+        </div>
+        <!-- service 2 -->
+        <div class="col-3 d-flex flex-column align-items-center">
+          <img src="images\placeholder2.png" alt="" height="250" width="250" />
+          <h5 class="my-3">Placeholder</h5>
+        </div>
+        <!-- service 3 -->
+        <div class="col-3 d-flex flex-column align-items-center">
+          <img src="images\placeholder2.png" alt="" height="250" width="250" />
+          <h5 class="my-3">Placeholder</h5>
+        </div>
+        <!-- service 4 -->
+        <div class="col-3 d-flex flex-column align-items-center">
+          <img src="images\placeholder2.png" alt="" height="250" width="250" />
+          <h5 class="my-3">Placeholder</h5>
+        </div>
+      </div>
+    </div>
+    <!-- BOOTSTRAP JS BUNDLE -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
