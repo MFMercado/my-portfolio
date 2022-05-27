@@ -25,13 +25,12 @@
         <div>
           <a class="navbar-brand" href="#">
             <img
-              src="/docs/5.2/assets/brand/bootstrap-logo.svg"
+              src="images\placeholder2.png"
               alt=""
-              width="30"
-              height="24"
-              class="d-inline-block align-text-top"
+              width="100"
+              height="100"
+              class="nav-logo d-inline-block img-fluid position-fixed"
             />
-            Placeholder
           </a>
         </div>
         <div>
@@ -60,6 +59,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">PORTFOLIO</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -67,17 +69,18 @@
     </nav>
 
     <!-- HOME -->
-    <div>
-      <img
-        src="images\background-original.jpg"
-        alt=""
-        class="home-img img-fluid"
-      />
+    <div id="home">
+      <h1 class="home-text position-absolute">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </h1>
+
+      <img src="images\background1.png" alt="" class="home-img img-fluid" />
     </div>
 
     <!-- ABOUT -->
-    <div id="about" class="row p-0 align-items-center">
-      <div class="col-8 p-5 text-center">
+    <div id="about" class="d-flex align-items-center justify-content-center">
+      <div class="about-text">
         <h3>Hi! I'm Faye Mercado</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -86,37 +89,80 @@
           aliquip ex ea commodo consequat.
         </p>
       </div>
-      <div class="col-4">
-        <img src="images\placeholder2.png" alt="" height="500" />
+      <div class="about-photo">
+        <img src="images\placeholder2.png" alt="" class="img-fluid" />
       </div>
     </div>
 
     <!-- SERVICES -->
-    <div id="services" class="d-flex flex-column justify-content-center">
-      <h3 class="text-center mb-5">My Offered Services</h3>
-      <div class="row">
-        <!-- service 1 -->
-        <div class="col-3 d-flex flex-column align-items-center">
-          <img src="images\placeholder2.png" alt="" height="250" width="250" />
-          <h5 class="my-3">Placeholder</h5>
+    <div id="services">
+      <div class="d-flex flex-column justify-content-center h-75">
+        <h3 class="text-center mb-5">My Offered Services</h3>
+        <div class="row">
+          <!-- service 1 -->
+          <div class="col-3 d-flex flex-column align-items-center">
+            <img
+              src="images\placeholder2.png"
+              alt=""
+              height="250"
+              width="250"
+            />
+            <h5 class="my-3">Placeholder</h5>
+          </div>
+          <!-- service 2 -->
+          <div class="col-3 d-flex flex-column align-items-center">
+            <img
+              src="images\placeholder2.png"
+              alt=""
+              height="250"
+              width="250"
+            />
+            <h5 class="my-3">Placeholder</h5>
+          </div>
+          <!-- service 3 -->
+          <div class="col-3 d-flex flex-column align-items-center">
+            <img
+              src="images\placeholder2.png"
+              alt=""
+              height="250"
+              width="250"
+            />
+            <h5 class="my-3">Placeholder</h5>
+          </div>
+          <!-- service 4 -->
+          <div class="col-3 d-flex flex-column align-items-center">
+            <img
+              src="images\placeholder2.png"
+              alt=""
+              height="250"
+              width="250"
+            />
+            <h5 class="my-3">Placeholder</h5>
+          </div>
         </div>
-        <!-- service 2 -->
-        <div class="col-3 d-flex flex-column align-items-center">
-          <img src="images\placeholder2.png" alt="" height="250" width="250" />
-          <h5 class="my-3">Placeholder</h5>
+      </div>
+      <!-- counter -->
+      <div
+        id="counter"
+        class="d-flex align-items-center justify-content-center h-25 w-100"
+      >
+        <div class="counter-data">
+          <h3>0000</h3>
+          <span>PROJECTS</span>
         </div>
-        <!-- service 3 -->
-        <div class="col-3 d-flex flex-column align-items-center">
-          <img src="images\placeholder2.png" alt="" height="250" width="250" />
-          <h5 class="my-3">Placeholder</h5>
+        <div class="counter-data">
+          <h3>0000</h3>
+          <span>WORK HOURS</span>
         </div>
-        <!-- service 4 -->
-        <div class="col-3 d-flex flex-column align-items-center">
-          <img src="images\placeholder2.png" alt="" height="250" width="250" />
-          <h5 class="my-3">Placeholder</h5>
+        <div class="counter-data">
+          <h3>0000</h3>
+          <span>CUPS OF COFFEE</span>
         </div>
       </div>
     </div>
+
+    <!-- FOOTER -->
+
     <!-- BOOTSTRAP JS BUNDLE -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

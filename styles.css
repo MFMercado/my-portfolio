@@ -2,20 +2,77 @@ body {
   padding: 0;
 }
 
+.navbar {
+  min-height: 75px;
+  padding: 0 25px 0 25px !important;
+}
+
+.nav-logo {
+  left: 50%;
+  margin-left: -50px;
+}
+
+li.nav-item {
+  margin-left: 25px;
+}
+
+.home-text {
+  width: 40%;
+  top: 25%;
+  right: 5%;
+  text-align: end;
+  line-height: 1.25;
+}
+
 .home-img {
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
   object-fit: cover;
+  z-index: -5;
 }
 
 #about {
   height: 95vh;
   width: 100%;
+  padding: 0 200px 0 200px;
+}
+
+.about-text {
+  width: 30%;
+  margin: 25px;
+  text-align: center;
+}
+
+.about-photo {
+  width: 30%;
+  margin: 50px;
 }
 
 #services {
   height: 95vh;
   width: 100%;
   background-color: gainsboro;
-  padding: 0 50px 0 50px;
+}
+
+#services div.row {
+  padding: 0 200px 0 200px;
+}
+
+#counter {
+  background-color: #fff;
+}
+
+.counter-data {
+  width: 150px;
+  height: 150px;
+  margin: 0 25px 0 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgrey;
+  box-shadow: 0 0 3px 3px black;
+  border-radius: 50%;
+
+  text-align: center;
 }
