@@ -43,7 +43,7 @@
   --bs-dark: #212529;
   --bs-black: #000;
   --bs-white: #fff;
-  --bs-primary-rgb: 100, 161, 157;
+  --bs-primary-rgb: 187, 156, 125;
   --bs-secondary-rgb: 116, 100, 161;
   --bs-success-rgb: 103, 194, 156;
   --bs-info-rgb: 28, 171, 196;
@@ -2270,7 +2270,7 @@ progress {
   background-color: #fff;
   border-color: #b2d0ce;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(187, 156, 125, 0.25);
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
@@ -2494,7 +2494,7 @@ textarea.form-control-lg {
 .form-select:focus {
   border-color: #b2d0ce;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(187, 156, 125, 0.25);
 }
 .form-select[multiple],
 .form-select[size]:not([size="1"]) {
@@ -2564,7 +2564,7 @@ textarea.form-control-lg {
 .form-check-input:focus {
   border-color: #b2d0ce;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(187, 156, 125, 0.25);
 }
 .form-check-input:checked {
   background-color: #bb9c7d;
@@ -2645,10 +2645,10 @@ textarea.form-control-lg {
   outline: 0;
 }
 .form-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(100, 161, 157, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(187, 156, 125, 0.25);
 }
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(100, 161, 157, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(187, 156, 125, 0.25);
 }
 .form-range::-moz-focus-outer {
   border: 0;
@@ -3127,7 +3127,7 @@ textarea.form-control.is-invalid {
 .btn-check:focus + .btn,
 .btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(187, 156, 125, 0.25);
 }
 .btn:disabled,
 .btn.disabled,
@@ -3547,7 +3547,7 @@ fieldset:disabled .btn {
 }
 .btn-check:focus + .btn-outline-primary,
 .btn-outline-primary:focus {
-  box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(187, 156, 125, 0.5);
 }
 .btn-check:checked + .btn-outline-primary,
 .btn-check:active + .btn-outline-primary,
@@ -3563,7 +3563,7 @@ fieldset:disabled .btn {
 .btn-outline-primary:active:focus,
 .btn-outline-primary.active:focus,
 .btn-outline-primary.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(187, 156, 125, 0.5);
 }
 .btn-outline-primary:disabled,
 .btn-outline-primary.disabled {
@@ -5156,7 +5156,7 @@ fieldset:disabled .btn {
   z-index: 3;
   border-color: #b2d0ce;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(187, 156, 125, 0.25);
 }
 
 .accordion-header {
@@ -5267,7 +5267,7 @@ fieldset:disabled .btn {
   color: #7c654d;
   background-color: #e9ecef;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(187, 156, 125, 0.25);
 }
 
 .page-item:not(:first-child) .page-link {
@@ -5919,7 +5919,7 @@ fieldset:disabled .btn {
 }
 .btn-close:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(187, 156, 125, 0.25);
   opacity: 1;
 }
 .btn-close:disabled,
@@ -8297,7 +8297,7 @@ fieldset:disabled .btn {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(187, 156, 125, var(--bs-text-opacity)) !important;
 }
 
 .text-secondary {
@@ -12094,18 +12094,7 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
-/* .signup-section .form-signup input {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-} */
+
 .counter-data {
   width: 200px;
   height: 200px;
@@ -12161,4 +12150,18 @@ body {
 
 .footer {
   padding: 2rem 0;
+}
+
+.project-link {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.project-desc {
+  height: 75px;
+  font-size: 0.75rem;
+}
+
+.project-thumbnail {
+  border-radius: 50%;
 }
